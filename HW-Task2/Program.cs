@@ -18,7 +18,7 @@ while (!int.TryParse(input, out a))
     Console.WriteLine("This is not a number! Enter a=");
     input = Console.ReadLine();
 }
+
 a = Convert.ToInt32(input);
 int x = 12 * (a * a) + 7 * a + 12;
 Console.WriteLine($"x={x}");
-
